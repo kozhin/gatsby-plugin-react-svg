@@ -25,6 +25,9 @@
   "dependencies": {
     "svg-react-loader": "https://github.com/kozhin/svg-react-loader.git#dev"
   },
+  "overrides": {
+    "@parcel/watcher": "2.1.0"
+  },
   "peerDependencies": {
     "gatsby": "^5.0.0 || ^4.0.0 || ^3.0.0 || ^2.0.0"
   }
